@@ -1,0 +1,13 @@
+{
+  "name": "judge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "gen": "rm -rf ./test/testcase.json && node ./test/gen.js",
+    "test": "node ./test/test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
